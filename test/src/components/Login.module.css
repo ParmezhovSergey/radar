@@ -1,0 +1,91 @@
+.header {
+  height: 50px;
+  background-color: #0a82f2;
+}
+.auth {
+  min-height: calc(100vh - 50px);
+  border: 1px solid rgba(39, 39, 39, 0.1);
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  background: #efecec;
+}
+.text {
+  margin-top: 40px;
+  font-size: 25px;
+}
+.auth__form {
+  max-width: 334px;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.auth__form_loginText {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 22px;
+  height: 22px;
+  width: 122px;
+  display: flex;
+  color: rgba(23, 23, 25, 0.6);
+  padding-left: 55px;
+  margin-top: 10px;
+}
+.auth__form_loginInput {
+  max-width: 334px;
+  height: 18px;
+  border: 1px solid rgba(23, 23, 25, 0.2);
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.auth__form_passwordInput {
+  max-width: 334px;
+  height: 18px;
+  border: 1px solid rgba(23, 23, 25, 0.2);
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 14px;
+  padding: 10px;
+  /* margin-bottom: 20px; */
+}
+.auth__form_btn {
+  margin-top: 10px;
+  background: green;
+  border: 0px solid;
+  border-radius: 5px;
+  width: 150px;
+  height: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 5px;
+}
+.btn {
+  margin-top: 10px;
+  background: #0a82f2;
+  border: 0px solid;
+  border-radius: 5px;
+  width: 150px;
+  height: 42px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 5px;
+}
+.auth__form_btn:focus {
+  background: rgb(2, 67, 2);
+}
+.btn:focus {
+    background: #0c68a5;
+  }
+.error {
+  color: red;
+}
+.pass {
+  height: 80px;
+}
